@@ -1,3 +1,4 @@
+//первое задание
 const regex = /\'/gm;
 const str = `One: 'Hi Mary.' Two: 'Oh, hi.'
 One: 'How are you doing?'
@@ -20,3 +21,5 @@ const subst = `"`;
 const result = str.replace(regex, subst);
 
 console.log("Результат замены: ", result);
+
+//второе задание
